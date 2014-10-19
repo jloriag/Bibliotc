@@ -45,6 +45,61 @@ bool Arbol::agregar(Objeto *NuevoObjeto){
 	return agregar(NuevoObjeto,getRaiz());
 }
 
+//Nodo* Arbol:: eliminar(int criterio,Nodo*& a){
+////    if(a==NULL)
+////        return false;
+////    if(a->getObjeto()->getCriterio()==criterio){
+////        if(a->getIzq()==NULL){
+////        
+////        }
+////    }
+//    
+//    if(criterio< a->getObjeto()->getCriterio()){
+//        if(a->getIzq()!=NULL){
+//            return eliminar(criterio,a->getIzq());
+//        }
+//        else{
+//            return NULL;
+//        }
+//    } else if(criterio> a->getObjeto()->getCriterio()){
+//        if(a->getDer()!=NULL){
+//            return eliminar(criterio,a->getDer());
+//        }else{
+//            return NULL;
+//        }
+//    
+//    }else{
+//        if(a->getIzq()!=NULL&&a->getDer()!=NULL){
+//            
+//        
+//        }
+//    
+//    }
+//    
+//     if (value < this->value) {
+//            if (left != NULL)
+//                  return left->remove(value, this);
+//            else
+//                  return NULL;
+//      } else if (value > this->value) {
+//            if (right != NULL)
+//                  return right->remove(value, this);
+//            else
+//                  return NULL;
+//      } else {
+//            if (left != NULL && right != NULL) {
+//                  this->value = right->minValue();
+//                  return right->remove(this->value, this);
+//            } else if (parent->left == this) {
+//                  parent->left = (left != NULL) ? left : right;
+//                  return this;
+//            } else if (parent->right == this) {
+//                  parent->right = (left != NULL) ? left : right;
+//                  return this;
+//            }
+//      }
+//}
+
 Arbol::~Arbol() {
 }
 

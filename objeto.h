@@ -18,6 +18,9 @@ private:
     int _criterio;
 public:
 
+    Objeto() {
+    }
+
     Objeto(int c) {
         setCriterio(c);
     }

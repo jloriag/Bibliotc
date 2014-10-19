@@ -15,6 +15,7 @@ class Arbol {
 public:
     Arbol();
     bool agregar(Objeto *);
+//    Nodo* eliminar(int,Nodo*&);
     Nodo *&getRaiz();
     void setRaiz(Nodo *);
    ~Arbol();

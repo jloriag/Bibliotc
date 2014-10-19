@@ -7,7 +7,12 @@
 
 #include "Tipo.h"
 
-Tipo::Tipo(int id,string descripcion):Objeto(id) {
+Tipo::Tipo():Objeto() {
+_id=0;
+setDescripcion("");
+}
+
+Tipo::Tipo(int id,string descripcion):Objeto() {
     setID(id);
     setDescripcion(descripcion);
 }
@@ -21,11 +26,13 @@ string Tipo::getDescripcion()const {
 }
 
 void Tipo::setID(int id) {
+    this->setCriterio(id);
     _id = id;
 }
 
 void Tipo::setDescripcion(string d) {
     _descripcion = d;
+    
 }
 string Tipo::toString() {
   stringstream s;
@@ -34,8 +41,10 @@ string Tipo::toString() {
 }
 
 void Tipo::Captura() {
+   int id; 
   cout << "ID del Tipo:" << endl;
-  cin >> _id;
+  cin >> id;
+  setID(id);
   cout << "Descripcion:" << endl;
   cin >> _descripcion;
 }

@@ -11,6 +11,7 @@
 class Tipo:public Objeto {
 public:
     Tipo(int,string);
+    Tipo();
    ~Tipo();
    
    int getID()const;
