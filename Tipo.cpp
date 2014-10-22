@@ -49,6 +49,32 @@ void Tipo::Captura() {
   cin >> _descripcion;
 }
 
+void Tipo::deserialize(ifstream &entrada,Tipo* tipo) {
+	entrada.read((char*)&tipo->_id, sizeof(tipo->_id));
+	tipo->_criterio = tipo->_id;
+    tipo->_descripcion=sstring::deserialize(entrada);	
+	if(!entrada.good())
+		throw -1;
+}
+
+
+//Este método serializa(guarda) la informacion 
+//en el archivo
+bool Tipo::serialize(ofstream &salida,Tipo* tipo) {
+	salida.write((char*)&tipo->_id, sizeof(tipo->_id));
+	sstring::serialize(salida,tipo->_descripcion);
+	return salida.good();
+}
+bool Tipo::guardar(ofstream& salida)
+{
+    return serialize(salida, (Tipo*)this);
+}
+
+Tipo::Tipo(ifstream& entrada)
+{
+    deserialize(entrada, this);
+}
+
 Tipo::~Tipo() {
 }
 

@@ -7,14 +7,11 @@
 
 #ifndef OBJETO_H
 #define	OBJETO_H
-#include <iostream>
-#include <string>
-#include <sstream>
-using namespace std;
+#include"sstring.h"// Clase AMIGA
 // CLASE ABSTRACTA
 
 class Objeto {
-private:
+protected:
     int _criterio;
 public:
 

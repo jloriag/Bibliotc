@@ -20,6 +20,13 @@ public:
    void setDescripcion(string);
    virtual string toString();
    virtual void Captura();
+   
+   //Manejo de Archivos
+   Tipo(ifstream&);
+   static void deserialize(ifstream&,Tipo*);
+   static bool serialize(ofstream&,Tipo*);
+   
+   virtual bool guardar(ofstream&);
 private:
     int _id;
     string _descripcion;

@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
-CND_ARTIFACT_NAME_Debug=bibliot
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/bibliot
+CND_ARTIFACT_NAME_Debug=bibliotc
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/bibliotc
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=bibliot.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/bibliot.tar
+CND_PACKAGE_NAME_Debug=bibliotc.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/bibliotc.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=bibliot
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/bibliot
+CND_ARTIFACT_NAME_Release=bibliotc
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/bibliotc
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=bibliot.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/bibliot.tar
+CND_PACKAGE_NAME_Release=bibliotc.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/bibliotc.tar
 #
 # include compiler specific variables
 #

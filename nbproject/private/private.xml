@@ -4,7 +4,21 @@
         <activeConfTypeElem>1</activeConfTypeElem>
         <activeConfIndexElem>0</activeConfIndexElem>
     </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/josue/Documentos/Bibliotc/Arbol.h</file>
+            <file>file:/home/josue/Documentos/Bibliotc/Nodo.h</file>
+            <file>file:/home/josue/Documentos/Bibliotc/objeto.h</file>
+            <file>file:/home/josue/Documentos/Bibliotc/main.cpp</file>
+            <file>file:/home/josue/Documentos/Bibliotc/Arbol.cpp</file>
+            <file>file:/home/josue/Documentos/Bibliotc/sstring.h</file>
+            <file>file:/home/josue/Documentos/Bibliotc/sstring.cpp</file>
+            <file>file:/home/josue/Documentos/Bibliotc/std.h</file>
+            <file>file:/home/josue/Documentos/Bibliotc/Tipo.h</file>
+            <file>file:/home/josue/Documentos/Bibliotc/Tipo.cpp</file>
+            <file>file:/home/josue/Documentos/Bibliotc/Interfaz.h</file>
+            <file>file:/home/josue/Documentos/Bibliotc/Interfaz.cpp</file>
+        </group>
     </open-files>
 </project-private>
