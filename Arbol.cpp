@@ -172,4 +172,5 @@ ArbolTipos::ArbolTipos():Arbol() {
 //		pac->guardar(salida);
 //	}
 //	return salida.good();
+//sdnlkjgjkfd{s
 //}
